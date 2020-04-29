@@ -37,7 +37,7 @@ k-means算法以k为参数，把n个对象分成k个簇，使簇内具有较高�
 import numpy as np
 from sklearn.cluster import KMeans
 
-path = r"E:/Notes/PythonMachineLearning/01 第一周 机器学习之无监督学习/单元1 聚类/31省消费水平/31省市居民家庭消费水平-city.txt"
+path = r"E:/Notes/PythonMachineLearning/01 第一周 机器学习之无监督学习/单元1 聚类/01 全国31省消费水平/31省市居民家庭消费水平-city.txt"
 
 def loadData(filePath):
     fr = open(filePath, 'r+') # r+表示读写打开方式
